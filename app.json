@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Aorixa",
+    "slug": "aorixa",
+    "description": "video sharing app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo-small",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "scheme": "sora",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.jsm.sora"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "3703c091-f5d3-45dc-ab28-75b19a0dfa98"
+      }
+    }
+  }
+}
